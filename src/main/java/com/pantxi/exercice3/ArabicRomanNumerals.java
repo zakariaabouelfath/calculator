@@ -50,6 +50,7 @@ public class ArabicRomanNumerals {
         for(int i=0;i<testrom.length;i++){
             while(nbr>=nombre[i]){
                 res = res + testrom[i];
+//                nbr = nbr - testrom[i];
                 nbr = nbr - testrom[i];
 
             }
